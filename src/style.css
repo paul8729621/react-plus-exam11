@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.weather-card {
+  background: #f7f9fa;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 140px;
+}
+
+.weather-card .date {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.weather-card .icon {
+  font-size: 2rem;
+  margin: 0.3rem 0;
+}
+
+.weather-card .desc {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.weather-card .temp {
+  font-weight: 500;
+  color: #222;
+}
